@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    color: #fff;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    scale: 2;
+    min-height: 10%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+
+header {
+    color: #fbff00;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.home-link {
+    color: #000; /* Change the color of the Home link to black */
+}
+
+
+
+nav ul li a:hover {
+    color: #0059ff;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+#downloads {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.download-card {
+    background-color: #444;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
+.download-card h3 {
+    margin: 0 0 1rem;
+}
+
+.download-card p {
+    margin: 0 0 1rem;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #00ff55;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #d9ff00;
+}
+
+
+
+footer {
+    
+
+    text-align: center;
+}
